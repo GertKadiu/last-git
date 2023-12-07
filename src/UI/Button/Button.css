@@ -1,0 +1,60 @@
+.creteBtn{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border: 2px solid  #FFFFFF; 
+  background-color: transparent;
+  text-decoration: none; 
+  color: #FFFFFF;
+  padding: 6px 0px;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  width: 312px;
+  
+} 
+
+
+.editBtn {
+  background-color: #026cdf;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 13px 29px 13px 29px;
+  border: none;
+  text-decoration: none;
+}
+
+
+.saveBtn{
+  background-color: #026CDF;
+  width: 312px;
+  border: none;
+  height:38px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.cancelBtn{
+     background-color: transparent;
+  width: 312px;
+  border: 1px solid #FFFFFF;
+  height:38px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+
+.disabled {
+  background-color:  #666666;
+  width: 312px;
+  border: none;
+  height:38px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
